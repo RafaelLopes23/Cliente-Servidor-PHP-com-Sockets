@@ -1,0 +1,41 @@
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# PHP / Dependencies
+vendor/
+composer.lock
+
+# Local environment files
+.env
+.env.*
+
+# Logs and caches
+*.log
+*.cache
+logs/
+cache/
+
+# Packet captures and large binaries (avoid committing network data)
+*.pcap
+*.pcapng
+captures/
+
+# LaTeX build artifacts (README mentions a LaTeX template)
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.toc
+*.synctex.gz
+
+# Archives
+*.zip
+*.tar
+*.gz
+*.7z
