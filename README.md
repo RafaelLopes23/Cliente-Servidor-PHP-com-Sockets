@@ -11,8 +11,6 @@ Este projeto implementa uma aplicação simples de armazenamento Chave-Valor (KV
 - `server.php` — servidor TCP concorrente (usa `stream_select`) com armazenamento em memória
 - `kv-client.php` — cliente interativo em CLI
 - `client-demo.php` — cliente automático para gerar tráfego previsível
-- `PROTOCOL.md` — especificação do protocolo
-- `IEEEconferencetemplate.tex` — base do relatório (adaptada)
 
 ## Requisitos
 
