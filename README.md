@@ -4,7 +4,7 @@ Este projeto implementa uma aplicação simples de armazenamento Chave-Valor (KV
 
 - Linguagem: PHP 8+
 - Transporte: TCP (porta padrão 5000)
-- Protocolo: `KV/1.0` (ver `PROTOCOL.md`)
+- Protocolo: `KV/1.0`
 
 ## Estrutura
 
