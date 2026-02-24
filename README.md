@@ -1,4 +1,4 @@
-# Projeto 1 (Redes) — Aplicação Cliente-Servidor em PHP
+# Aplicação Cliente-Servidor em PHP
 
 Este projeto implementa uma aplicação simples de armazenamento Chave-Valor (KV) usando um protocolo de texto próprio sobre TCP.
 
