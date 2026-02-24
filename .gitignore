@@ -23,17 +23,6 @@ cache/
 *.pcapng
 captures/
 
-# LaTeX build artifacts (README mentions a LaTeX template)
-*.aux
-*.bbl
-*.blg
-*.fdb_latexmk
-*.fls
-*.log
-*.out
-*.toc
-*.synctex.gz
-
 # Archives
 *.zip
 *.tar
