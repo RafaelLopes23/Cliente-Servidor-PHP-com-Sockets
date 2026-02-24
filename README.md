@@ -57,26 +57,6 @@ Dicas:
 - Use `SET minhaChave` e depois digite o valor quando solicitado.
 - Use `GET minhaChave`, `DEL minhaChave`, `KEYS`, `QUIT`.
 
-5) Para gerar tráfego de teste previsível (útil para capturas):
-
-```powershell
-php .\client-demo.php --host=192.168.1.10 --port=5000
-```
-
-## Análise com Wireshark
-
-1) Abra o Wireshark e selecione a interface em uso (Wi‑Fi/Ethernet).
-2) Inicie a captura e aplique o filtro: `tcp.port == 5000`.
-3) Realize operações no cliente (SET/GET/KEYS/DEL).
-4) Pare a captura. Use "Follow TCP Stream" para ver requisições e respostas em texto.
-5) Responda ao Quadro 1 do enunciado:
-   - Versão/tipo da aplicação: veja a saudação `OK WELCOME KV/1.0` (na primeira resposta do servidor).
-   - Endereços IP: coluna `Source`/`Destination` dos pacotes TCP.
-   - Protocolo de transporte: TCP (camada de transporte no Wireshark indica TCP).
-   - Portas de origem/destino: na aba de detalhes do pacote TCP (ex.: Src Port, Dst Port). Servidor: porta 5000 (destino no SYN recebido pelo servidor). Cliente: porta efêmera (origem no mesmo pacote).
-   - Carga útil: veja no campo `Data` dos pacotes (ex.: `GET foo\r\n`, `VALUE 3\r\n` seguido de `bar\r\n`).
-   - Encapsulamento: inspeção das camadas Ethernet/IP/TCP/Dados no painel do Wireshark.
-
 ## Dicas de rede
 
 - Para testar resolução de nomes (se houver DNS):
