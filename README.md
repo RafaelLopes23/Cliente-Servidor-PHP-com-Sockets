@@ -16,8 +16,7 @@ Este projeto implementa uma aplicação simples de armazenamento Chave-Valor (KV
 
 - PHP CLI instalado e no PATH
 - Permissão de firewall para aceitar conexões na porta escolhida (5000 por padrão)
-- Wireshark para análise
-
+  
 ## Como executar (Windows PowerShell)
 
 1) Verifique o PHP:
